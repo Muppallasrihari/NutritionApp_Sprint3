@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.label{
+font-weight: bold;
+}
+
+.footer{
+  position:fixed;
+  right: 0;
+  left: 0;
+  bottom:0;
+  width: 100%;
+   
+  }
+.tablee{
+  height: 70px;
+  width: 50%;
+}
+.box {
+  width: 250px;
+  background-color: black;
+  opacity:0.9;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+  color: white;
+}
+.heading{
+  text-align: center;
+  
+}
+.body{
+  text-align: left;
+}
+img{
+  border-radius: 50%;
+}
+.card{
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+/* padding: 14px 80px 18px 36px; */
+cursor: pointer;
+}
+ 
+.card:hover{
+   transform: scale(1.10);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.rounded{
+  border: 1px solid DarkOrange;
+  border-radius: 13px; 
+  border-spacing: 0;
+}
+.imag{
+  background-image: url('https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8bnV0cml0aW9ufGVufDB8fDB8&w=1000&q=80');
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 870px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.FooterColor{
+  background-color: aqua;
+}
+.CustomerItemColor{
+  background-color: darkturquoise;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.size{
+  font-size:x-large;
+  font-weight: 200;
+}
+
+.jumbo{
+  background: none;
+}
+
